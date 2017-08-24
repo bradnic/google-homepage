@@ -1,0 +1,130 @@
+body {
+  font-family: arial, sans-serif;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+}
+
+div div {
+  position: relative;
+}
+
+.logo {
+  width: 272px;
+  height: 92px;
+  margin: 150px auto;
+}
+
+.canada {
+  color: #4285f4;
+  font-size: 16px;
+  position: absolute;
+  left: 215px;
+  top: 60px;
+}
+
+.form {
+  width: 584px;
+  margin-top: -125px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search {
+  background-color: #fff;
+  border-width: 1px;
+  border-color: rgba(170, 170, 170, .5);
+  border-style: solid;
+  border-radius: 2px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16);
+  font-size: 16px;
+  color: #bbb;
+  padding-left: 10px;
+  width: 584px;
+  height: 44px;
+}
+
+.mic {
+  position: relative;
+  float: right;
+  padding-right: 10px;
+  margin-top: -36px;
+  z-index: 50;
+}
+
+center {
+  padding-top: 20px;
+}
+
+.lucky, .gsearch {
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  color: #757575;
+  font-size: 13px;
+  font-weight: bold;
+  height: 36px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  text-align: center;
+}
+
+#translate {
+  font-size: small;
+}
+
+#translate a {
+  text-decoration: none;
+}
+
+header {
+  overflow: auto;
+}
+
+#top_nav {
+  float: right;
+}
+
+#top_nav li {
+  padding-right: 15px;
+}
+
+
+footer {
+  margin-top: 85px;
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  line-height: 40px;
+  min-width: 980px;
+  overflow: auto;
+}
+
+li {
+  display: inline;
+  padding-right: 30px;
+  font-size: small;
+}
+
+#r_footer, #l_footer {
+  margin: 0;
+}
+
+#r_footer {
+  float: right;
+  padding-right: 40px;
+}
+
+#l_footer {
+  float: left;
+}
+
+li a {
+  text-decoration: none;
+  color: #666;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
